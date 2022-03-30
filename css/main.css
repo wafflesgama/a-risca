@@ -284,15 +284,19 @@ div>button {
 }
 
 .pfp {
-    height: 80px;
-    width: 80px;
-    background-color: gray;
+    height: 90px;
+    width: 90px;
+    background-color: #808080;
+    background-image: url(../images/profile2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 50%;
 }
 
 .member-desc>p {
     margin: 0px;
     display: flex;
+    width: 180px;
 }
 
 .member-name {

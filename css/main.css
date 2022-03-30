@@ -2,6 +2,7 @@ body {
     font-size: 14px;
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -22,8 +23,8 @@ body {
 }
 
 .pad {
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 
@@ -77,6 +78,7 @@ header {
     /* background-color: transparent; */
     margin-bottom: -65px;
     z-index: 500;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, .1));
 }
 
 button.nav-opener {
@@ -95,8 +97,9 @@ button.nav-opener {
 .front-seg {
     background-image: url(../images/back2.jpg);
     background-size: cover;
+    padding-bottom: 20px;
     /* background-color: red; */
-    margin-top: 50px;
+    margin-top: 2vh;
     height: 95vh;
     /* width: 100%; */
     display: flex;
@@ -116,7 +119,6 @@ button.nav-opener {
 
 .scrolling-container {
     padding-top: 20px;
-    padding-bottom: 10px;
     position: relative;
     overflow: hidden;
     height: 40px;
@@ -144,7 +146,7 @@ button.nav-opener {
 }
 
 .scrolling-sub {
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 b.r {
@@ -314,27 +316,27 @@ footer {
     color: white;
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .top-footer {
     display: flex;
     flex-direction: row;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    padding-bottom: 60px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 30px;
     justify-content: space-between;
 }
 
 .footer-title {
-    font-size: 1.2rem;
+    font-size: .9rem;
     text-transform: uppercase;
     font-weight: bold;
-    opacity: .8;
+    margin-bottom: 3px;
 }
 
 .footer-desc {
-    font-size: 1.2rem;
+    font-size: .8rem;
 }
 
 footer>.separator {
@@ -346,14 +348,16 @@ footer>.separator {
 .final-footer {
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
     align-items: center;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-bottom: 10px;
+    opacity: .7;
 }
 
 .final-footer>img {
-    width: 100px;
+    width: 70px;
     filter: invert(100%);
 }
 
@@ -375,11 +379,9 @@ footer>.separator {
 
 @keyframes slide-up {
     0% {
-        opacity: 0;
         transform: translateY(40px);
     }
     100% {
-        opacity: 1;
         transform: translateY(0);
     }
 }
@@ -390,11 +392,9 @@ footer>.separator {
 
 @keyframes slide-down {
     0% {
-        opacity: 0;
         transform: translateY(-40px);
     }
     100% {
-        opacity: 1;
         transform: translateY(0);
     }
 }

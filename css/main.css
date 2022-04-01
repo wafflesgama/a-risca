@@ -114,6 +114,72 @@ button.nav-opener {
     /* height: 200px; */
 }
 
+@media screen and (max-device-width: 600px) {
+    .front-seg {
+        height: 100vh;
+        padding-bottom: 0px;
+    }
+    .logo-container {
+        width: 98vw;
+        margin-top: 23vh;
+        margin-bottom: 38vh;
+    }
+    body {
+        font-size: 1.7rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .service-item {
+        width: 67vw !important;
+        margin-bottom: 10vh !important;
+    }
+    .seg>h1 {
+        margin-bottom: 5vh !important;
+    }
+    button {
+        font-size: 1.4rem !important;
+    }
+    .nav-opener {
+        font-size: 2.2rem !important;
+    }
+    header {
+        padding-top: 22px !important;
+        padding-bottom: 22px !important;
+    }
+    .proc-diagram {
+        display: none;
+    }
+    .who-desc {
+        margin-right: 0px !important;
+        text-align: center;
+    }
+    div.question {
+        margin-top: 15vh !important;
+        margin-bottom: 20vh !important;
+    }
+    .talk {
+        font-size: 4vw !important;
+        padding: 3vw;
+        border-radius: 6vw;
+    }
+    .sub-title {
+        text-align: center;
+    }
+    .footer-title {
+        font-size: 1.4rem !important;
+    }
+    .footer-desc {
+        font-size: 1.2rem !important;
+    }
+    .final-footer {
+        margin-top: 14px !important;
+    }
+    .final-footer>img {
+        width: 15vw !important;
+    }
+}
+
 
 /* ----------Scrolling Text */
 
